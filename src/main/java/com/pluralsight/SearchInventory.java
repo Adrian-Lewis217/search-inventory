@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+import java.io.BufferedReader;
 import java.util.ArrayList;
 
 // Starter for Search Inventory (Workbook 3a, Section 3-2 Using an ArrayList, Exercise 1).
@@ -19,11 +20,14 @@ public class SearchInventory {
         ArrayList<Product> inventory = new ArrayList<>();
 
         // Write your code here
-        inventory.add(new Product(1, "Laptop", 1199.99));
-        inventory.add(new Product(2, "Phone", 744.99));
-        inventory.add(new Product(3, "Console", 599.99));
-        inventory.add(new Product(4, "Controller", 59.99));
-        inventory.add(new Product(5, "Tablet", 999.99));
+        inventory.add(new Product(1007, "Laptop", 1199.99));
+        inventory.add(new Product(2121, "Phone", 744.99));
+        inventory.add(new Product(3045, "Console", 599.99));
+        inventory.add(new Product(4003, "Controller", 59.99));
+        inventory.add(new Product(5785, "Tablet", 999.99));
         return inventory;
+    }
+    public static BufferedReader getItems(){
+        // Split the items
     }
 }
